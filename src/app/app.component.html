@@ -1,11 +1,12 @@
 <div>
   <app-header />
   <main class="wrapper">
+    <app-top-content/>
     <div class="row g-5">
       <div class="col-md-8">
         <router-outlet></router-outlet>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" style="z-index:1">
         <app-sidebar/>
       </div>
 
