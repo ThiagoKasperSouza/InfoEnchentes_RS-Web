@@ -1,0 +1,5 @@
+.bg-opaque {
+    --bs-bg-opacity: 1;
+    backdrop-filter: blur(8px);
+    background-color: rgba(var(--bs-dark-rgb), 0.5) !important;
+}
